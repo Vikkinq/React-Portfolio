@@ -1,0 +1,38 @@
+[
+  {
+    "icon": "fab fa-html5 text-orange-500",
+    "stack": "HTML5"
+  },
+  {
+    "icon": "fab fa-css3-alt text-blue-500",
+    "stack": "CSS3"
+  },
+  {
+    "icon": "fab fa-js text-yellow-400",
+    "stack": "JavaScript"
+  },
+  {
+    "icon": "fab fa-node-js text-green-600",
+    "stack": "NodeJS"
+  },
+  {
+    "icon": "devicon-express-original text-gray-200",
+    "stack": "ExpressJS"
+  },
+  {
+    "icon": "devicon-mongodb-plain text-green-600",
+    "stack": "MongoDB"
+  },
+  {
+    "icon": "fab fa-php text-indigo-500",
+    "stack": "PHP"
+  },
+  {
+    "icon": "fas fa-database text-blue-700",
+    "stack": "MySQL"
+  },
+  {
+    "icon": "fab fa-git-alt text-red-600",
+    "stack": "Git"
+  }
+]
