@@ -13,7 +13,7 @@ export default function ProjectSection() {
       <div className="grid sm:grid-cols-2 gap-6">
         <article className="rounded-xl border border-white/10 bg-white/5 overflow-hidden">
           <a data-lightbox href="assets/irrigaia.png">
-            <img src="assets/irrigaia.png" alt="Screenshot of IrriGaia project" className="w-full h-44 object-cover" />
+            <img src="/images/irrigaia.png" alt="Screenshot of IrriGaia project" className="w-full h-44 object-cover" />
           </a>
           <div className="p-4">
             <h3 className="font-semibold">IrriGaia Dashboard</h3>

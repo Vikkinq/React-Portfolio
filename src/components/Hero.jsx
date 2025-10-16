@@ -3,9 +3,9 @@ export default function HeroSection() {
     <section id="home" className="pt-40 pb-24 text-center">
       <div className="inline-flex items-center gap-3 sm:gap-4 px-3 sm:px-4 py-2 sm:py-2.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-md mb-6">
         <span className="inline-block w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full overflow-hidden ring-1 ring-white/15 shrink-0">
-          <a data-lightbox href="assets/symon.JPG">
+          <a href="/images/symon.JPG">
             <img
-              src="assets/symon.JPG"
+              src="/images/symon.JPG"
               alt="Profile photo of Fritz Symon Blancaflor"
               className="block w-full h-full object-cover object-center"
             />

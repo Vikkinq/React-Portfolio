@@ -4,7 +4,7 @@
       "date": "September 2020 - July 2025",
       "title": "University of San Agustin - Iloilo",
       "subtitle": "Bachelor of Science in Computer Engineering",
-      "logo": "assets/san-ag.png"
+      "logo": "/images/san-ag.png"
     },
     {
       "date": "June 2018 - March 2020",
@@ -16,7 +16,7 @@
       "date": "June 2014 - May 2018",
       "title": "Faith Christian Academy",
       "subtitle": "Junior High School",
-      "logo": "assets/svg/step-by-step.svg"
+      "logo": "/images/svg/step-by-step.svg"
     }
   ],
 
@@ -25,7 +25,7 @@
       "date": "June 2024 - August 2024",
       "title": "Experts Academy",
       "subtitle": "Network Technical Support - Internship",
-      "logo": "assets/svg/experts-academy.svg"
+      "logo": "/images/svg/experts-academy.svg"
     }
   ],
 
@@ -34,25 +34,25 @@
       "date": "2024 – 2025",
       "title": "ACES — Augustinian Computer Engineering Society",
       "subtitle": "4th Year Representative",
-      "logo": "assets/svg/aces.svg"
+      "logo": "/images/svg/aces.svg"
     },
     {
       "date": "2022 – 2025",
       "title": "ICpEP — Institute of Computer Engineers of the Philippines",
       "subtitle": "Member",
-      "logo": "assets/ICpEP.jpg"
+      "logo": "/images/ICpEP.jpg"
     },
     {
       "date": "2024",
       "title": "Capture the Flag (National)",
       "subtitle": "Placed ~100th out of 600+ Teams",
-      "logo": "assets/uctf.png"
+      "logo": "/images/uctf.png"
     },
     {
       "date": "2021 - 2022",
       "title": "GDSC — Google Developer Student Club",
       "subtitle": "Member",
-      "logo": "assets/svg/gdsc.svg"
+      "logo": "/images/svg/gdsc.svg"
     }
   ]
 }

@@ -13,7 +13,9 @@ export default function ExperiencePage() {
     return data.ACTIVITIES;
   };
 
-  const handleClick = (evt) => {};
+  const handleClick = (evt) => {
+    console.log(evt.target);
+  };
 
   return (
     <section aria-labelledby="experience-heading">

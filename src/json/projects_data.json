@@ -1,0 +1,55 @@
+[
+  {
+    "title": "IrriGaia Dashboard",
+    "desc": "A Full-Stack Dashboard system using ESP32 to send data to AWS Lightsail using LAMP Stack",
+    "image": "/images/irrigaia.png",
+    "tags": ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL", "Apache", "AWS Lightsail"],
+    "type": "web"
+  },
+  {
+    "title": "TravelSpots Web App",
+    "desc": "A full-stack web application where users can discover, create, and review travel destinations.",
+    "image": "/images/travelspots.png",
+    "tags": ["JavaScript", "ExpressJS", "NodeJS", "MongoDB", "EJS", "Passport", "Render"],
+    "type": "web",
+    "link": "https://travel-spots-web-app.onrender.com"
+  },
+  {
+    "title": "IrriGaia Webpage",
+    "desc": "An informational site highlighting our IoT smart irrigation project with research details and team showcase.",
+    "image": "/images/fascrop-site.png",
+    "tags": ["HTML5", "CSS3", "JavaScript"],
+    "type": "web",
+    "link": "https://vikkinq.github.io/FASCROP/"
+  },
+  {
+    "title": "Attendance Dashboard using Facial Recognition",
+    "desc": "Task platform using MATLAB for facial recognition and a PHP/MySQL backend.",
+    "image": "/images/image-process.png",
+    "tags": ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL", "XAMPP", "MATLAB"],
+    "type": "web"
+  },
+  {
+    "title": "Video Editor Portfolio",
+    "desc": "A Cool Portfolio site that showcasing my Video Editing Skills, and Projects as a Video Editor",
+    "image": "/images/vorn-portfolio.png",
+    "tags": ["HTML5", "CSS3", "JavaScript"],
+    "type": "web",
+    "link": "https://vikkinq.github.io/Vorn-Portfolio/"
+  },
+  {
+    "title": "Main Portfolio",
+    "desc": "A Simple Portfolio Site showcasing my projects, skills, and experience as a web developer",
+    "image": "/images/portfolio-site.png",
+    "tags": ["HTML5", "CSS3", "JavaScript"],
+    "type": "web",
+    "link": "https://vikkinq.github.io/main-portfolio/"
+  },
+  {
+    "title": "Smart Doorbell",
+    "desc": "Smart IoT Doorbell with ESP8266, touch sensor, chimes, LED, and MQTT.",
+    "image": "/images/doorbell.jpg",
+    "tags": ["C", "ESP8266", "IoT", "MQTT", "TTP223", "DFPlayer", "Smart Home"],
+    "type": "hardware"
+  }
+]

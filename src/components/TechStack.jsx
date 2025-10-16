@@ -4,7 +4,7 @@ export default function TechStack() {
   return (
     <section className="pt-10" aria-labelledby="tech-heading">
       <h3 id="tech-heading" className="text-white/90 text-xl font-semibold mb-4">
-        Tech Stack
+        Technologies
       </h3>
       <div className="flex flex-wrap gap-3">
         {stack.map((tech, index) => (
