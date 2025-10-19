@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export default function ProjectSection() {
   return (
-    <section id="projects" className="pt-10 pb-16" aria-labelledby="projects-heading">
+    <section id="projects" className="pt-10 pb-4" aria-labelledby="projects-heading">
       <div className="flex items-center justify-between mb-4">
         <h2 id="projects-heading" className="text-white/90 text-xl font-semibold">
           Projects

@@ -3,6 +3,7 @@ import AboutSection from "../components/About";
 import ExperiencePage from "../components/Experience";
 import TechStack from "../components/TechStack";
 import ProjectSection from "../components/Projects";
+import AchievementSection from "../components/Achievements";
 
 export default function HomePage() {
   return (
@@ -11,6 +12,7 @@ export default function HomePage() {
       <ExperiencePage />
       <TechStack />
       <ProjectSection />
+      <AchievementSection />
     </div>
   );
 }
