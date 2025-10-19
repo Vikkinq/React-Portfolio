@@ -23,6 +23,13 @@
     "link": "https://vikkinq.github.io/FASCROP/"
   },
   {
+    "title": "Inventory Management System",
+    "desc": "Inventory System with POS and built in Dashboard for Data Analysis",
+    "image": "/images/inventory-app.png",
+    "tags": ["JavaScript", "NodeJS", "ExpressJS", "MongoDB", "BootstrapCSS", "Passport", "EJS"],
+    "type": "web"
+  },
+  {
     "title": "Attendance Dashboard using Facial Recognition",
     "desc": "Task platform using MATLAB for facial recognition and a PHP/MySQL backend.",
     "image": "/images/image-process.png",
@@ -41,7 +48,7 @@
     "title": "Main Portfolio",
     "desc": "A Simple Portfolio Site showcasing my projects, skills, and experience as a web developer",
     "image": "/images/portfolio-site.png",
-    "tags": ["HTML5", "CSS3", "JavaScript"],
+    "tags": ["ReactJS", "TailwindCSS", "JavaScript", "CSS3", "Vercel"],
     "type": "web",
     "link": "https://vikkinq.github.io/main-portfolio/"
   },
