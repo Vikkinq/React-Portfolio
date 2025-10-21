@@ -13,7 +13,11 @@
   pointer-events: none;
   z-index: 0;
   filter: blur(120px);
-  background: radial-gradient(600px 400px at 70% 40%, rgba(56, 189, 248, 0.35), transparent 60%),
+  background: radial-gradient(700px 400px at 70% 40%, rgba(56, 189, 248, 0.35), transparent 60%),
     radial-gradient(500px 300px at 30% 60%, rgba(139, 92, 246, 0.3), transparent 60%),
     radial-gradient(600px 400px at 50% 10%, rgba(16, 185, 129, 0.25), transparent 60%);
 }
+
+/* * {
+  outline: 1px solid red !important;
+} */

@@ -27,7 +27,7 @@
       "title": "Inventory Management System",
       "desc": "Inventory System with POS and built in Dashboard for Data Analysis",
       "image": "/images/inventory-app.png",
-      "tags": ["JavaScript", "NodeJS", "ExpressJS", "MongoDB", "BootstrapCSS", "Passport", "EJS"],
+      "tags": ["JavaScript", "NodeJS", "ExpressJS", "MongoDB", "BootstrapCSS", "Passport", "EJS", "RESTful API"],
       "type": "web",
       "link": "https://inventory-web-app-system-production.up.railway.app/"
     },
@@ -50,7 +50,7 @@
       "title": "Main Portfolio",
       "desc": "A Simple Portfolio Site showcasing my projects, skills, and experience as a web developer",
       "image": "/images/portfolio-site.png",
-      "tags": ["ReactJS", "TailwindCSS", "JavaScript", "CSS3", "Vercel"],
+      "tags": ["ReactJS", "TailwindCSS", "JavaScript", "CSS3", "Framer Motion", "Vercel"],
       "type": "web",
       "link": "https://vikkinq.github.io/main-portfolio/"
     }
