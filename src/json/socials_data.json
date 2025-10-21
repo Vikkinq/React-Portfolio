@@ -1,0 +1,22 @@
+[
+  {
+    "socials": "Facebook",
+    "links": "https://www.facebook.com/fritzsymon.blancaflor/",
+    "icons": "fab fa-facebook"
+  },
+  {
+    "socials": "Instagram",
+    "links": "https://www.instagram.com/blancaflor.fs/",
+    "icons": "fab fa-instagram"
+  },
+  {
+    "socials": "Github",
+    "links": "https://github.com/Vikkinq",
+    "icons": "fab fa-github"
+  },
+  {
+    "socials": "LinkedIn",
+    "links": "https://www.linkedin.com/in/fsblancaflor/",
+    "icons": "fab fa-linkedin"
+  }
+]

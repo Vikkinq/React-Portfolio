@@ -28,7 +28,8 @@
       "desc": "Inventory System with POS and built in Dashboard for Data Analysis",
       "image": "/images/inventory-app.png",
       "tags": ["JavaScript", "NodeJS", "ExpressJS", "MongoDB", "BootstrapCSS", "Passport", "EJS"],
-      "type": "web"
+      "type": "web",
+      "link": "https://inventory-web-app-system-production.up.railway.app/"
     },
     {
       "title": "Attendance Dashboard using Facial Recognition",
@@ -65,5 +66,3 @@
     }
   ]
 }
-
-

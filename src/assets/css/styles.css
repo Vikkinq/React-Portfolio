@@ -1,13 +1,14 @@
 .bg-blobs {
   position: relative;
-  isolation: isolate; /* ensures blobs stay behind your content */
+  isolation: isolate; /* keeps pseudo elements behind content */
+  overflow: hidden; /* prevents gradient bleed */
 }
 
 .bg-blobs::before,
 .bg-blobs::after {
   content: "";
   position: absolute;
-  inset: -15% -10%; /* extend beyond the screen for soft edges */
+  inset: -10% 0; /* remove negative right/left overflow */
   height: 100vh;
   pointer-events: none;
   z-index: 0;

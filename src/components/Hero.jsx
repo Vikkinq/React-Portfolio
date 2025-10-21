@@ -1,5 +1,7 @@
 import "../assets/css/lightbox.css";
 
+import socials from "../json/socials_data.json";
+
 export default function HeroSection() {
   return (
     <section id="home" className="pt-40 pb-24 text-center ">
@@ -35,7 +37,7 @@ export default function HeroSection() {
           <span className="font-medium">Contact me</span>
         </a>
         <a
-          href="https://drive.google.com/uc?export=download&id=16fyHprH7s-PGmEZjQHbkeilvYu_aYiXP"
+          href="https://drive.google.com/uc?export=download&id=1WA4CpFqgH63_rICYjjmSYExu03nbS7ZZ"
           className="inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-2.5 hover:bg-white/10 transition"
           target="_blank"
           rel="noopener"
@@ -47,34 +49,17 @@ export default function HeroSection() {
       </div>
 
       <div className="mt-6 flex items-center justify-center gap-3">
-        <a
-          href="https://www.linkedin.com/in/fritz-symon-blancaflor-8a8849323/"
-          className="w-11 h-11 grid place-items-center rounded-full border border-white/20 hover:bg-white/10 transition"
-          aria-label="LinkedIn"
-        >
-          <i className="fab fa-linkedin"></i>
-        </a>
-        <a
-          href="https://www.instagram.com/blancaflor.fs/"
-          className="w-11 h-11 grid place-items-center rounded-full border border-white/20 hover:bg-white/10 transition"
-          aria-label="Instagram"
-        >
-          <i className="fab fa-instagram"></i>
-        </a>
-        <a
-          href="https://github.com/Vikkinq"
-          className="w-11 h-11 grid place-items-center rounded-full border border-white/20 hover:bg-white/10 transition"
-          aria-label="GitHub"
-        >
-          <i className="fab fa-github"></i>
-        </a>
-        <a
-          href="https://www.facebook.com/fritzsymon.blancaflor/"
-          className="w-11 h-11 grid place-items-center rounded-full border border-white/20 hover:bg-white/10 transition"
-          aria-label="Facebook"
-        >
-          <i className="fab fa-facebook"></i>
-        </a>
+        {socials.map((soc, index) => (
+          <a
+            key={index}
+            href={soc.links}
+            className="w-11 h-11 grid place-items-center rounded-full border border-white/20 hover:bg-white/10 transition"
+            aria-label={soc.socials}
+            target="_blank"
+          >
+            <i className={soc.icons}></i>
+          </a>
+        ))}
       </div>
     </section>
   );
