@@ -2,7 +2,7 @@ import certs from "../json/achievements_data.json";
 
 export default function AchievementSection() {
   return (
-    <section id="achievements" className="pt-10 pb-16 " aria-labelledby="achievements-heading">
+    <section id="achievements" className=" pb-16 " aria-labelledby="achievements-heading">
       <div className="flex items-center justify-between mb-4">
         <h2 id="achievements-heading" className="text-white/90 text-xl font-semibold tracking-tight">
           Achievements & Certificates

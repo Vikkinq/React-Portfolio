@@ -22,8 +22,8 @@ export default function ProjectLists() {
 
       <div className="flex items-center justify-center">
         <p className="text-white/70 max-w-2xl mb-10">
-          Developed and Designed web applications, from simple pages to full stack applications. Here are a few of my
-          favorites
+          Developed and Designed web and hardware systems, from simple pages to full stack applications. Here are a few
+          of my favorites
         </p>
       </div>
 

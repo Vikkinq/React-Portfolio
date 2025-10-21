@@ -11,19 +11,9 @@ export default function Nav() {
             </Link>
           </li>
           <li>
-            <a href="#about" className="text-white/80 hover:text-white transition">
-              About
-            </a>
-          </li>
-          <li>
             <Link to="/projects" className="text-white/80 hover:text-white transition">
               Projects
             </Link>
-          </li>
-          <li>
-            <a href="#contact" className="text-white/80 hover:text-white transition">
-              Contact
-            </a>
           </li>
         </ul>
       </div>

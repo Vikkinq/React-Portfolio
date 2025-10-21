@@ -1,27 +1,22 @@
+import { Link } from "react-router-dom";
+
 import projectData from "../json/projects_data.json";
 import { useState } from "react";
 
 export default function ProjectSection() {
   return (
-    <section id="projects" className="pt-10 pb-4" aria-labelledby="projects-heading">
+    <section id="projects" className="pt-10 pb-16" aria-labelledby="projects-heading">
       <div className="flex items-center justify-between mb-4">
         <h2 id="projects-heading" className="text-white/90 text-xl font-semibold">
           My Projects
         </h2>
-        <a href="projects.html" className="text-sm text-white hover:text-white cursor-pointer">
-          View More
-        </a>
       </div>
 
       <div className="grid sm:grid-cols-2 gap-6">
         {projectData.SOFTWARE.slice(0, 4).map((p, index) => (
           <article key={index} className="rounded-xl border border-white/10 bg-white/5 overflow-hidden">
             <a data-lightbox href={p.image}>
-              {!p.image ? (
-                "Loading"
-              ) : (
-                <img src={p.image} alt="Screenshot of IrriGaia project" className="w-full h-44 object-cover" />
-              )}
+              {!p.image ? "Loading" : <img src={p.image} alt={p.title} className="w-full h-44 object-cover" />}
             </a>
             <div className="p-4">
               <h3 className="font-semibold">{p.title}</h3>
@@ -35,10 +30,8 @@ export default function ProjectSection() {
                 ))}
               </div>
 
-              {!p.link ? (
-                ""
-              ) : (
-                <div className="mt-4 flex justify-end" target="_blank">
+              {p.link && (
+                <div className="mt-4 flex justify-end">
                   <a href={p.link} target="_blank" className="text-white/70 hover:text-white text-sm font-medium">
                     View Site →
                   </a>
@@ -47,6 +40,14 @@ export default function ProjectSection() {
             </div>
           </article>
         ))}
+      </div>
+
+      <div className="mt-10 flex justify-center">
+        <Link to="/projects">
+          <a className="inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-2.5 hover:bg-white/10 transition text-sm font-medium">
+            View More Projects
+          </a>
+        </Link>
       </div>
     </section>
   );
