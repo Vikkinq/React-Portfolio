@@ -10,7 +10,7 @@ export default function TechStack() {
         {stack.map((tech, index) => (
           <span
             key={index}
-            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg border border-white/10 bg-white/10 text-sm"
+            className="inline-flex items-center gap-3 px-3 py-2 rounded-lg border border-white/10 bg-white/10 text-sm cursor-pointer hover:bg-white/20"
           >
             <i className={tech.icon}></i> {tech.stack}
           </span>

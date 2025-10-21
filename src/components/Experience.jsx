@@ -30,8 +30,8 @@ export default function ExperiencePage() {
               onClick={() => setTab("studies")}
               id="btnStudies"
               type="button"
-              className={`flex-1 py-2 text-sm font-medium ${
-                tab === "studies" ? "bg-white text-black" : "text-white/80"
+              className={`flex-1 py-2 text-sm font-medium cursor-pointer ${
+                tab === "studies" ? "bg-white text-black" : "text-white/80 hover:text-white hover:bg-white/5"
               }`}
             >
               Education
@@ -40,8 +40,8 @@ export default function ExperiencePage() {
               onClick={() => setTab("work")}
               id="btnWork"
               type="button"
-              className={`flex-1 py-2 text-sm ${
-                tab === "work" ? "bg-white text-black" : "text-white/80 hover:text-white"
+              className={`flex-1 py-2 text-sm cursor-pointer ${
+                tab === "work" ? "bg-white text-black" : "text-white/80 hover:text-white hover:bg-white/5"
               }`}
             >
               Work
@@ -50,8 +50,8 @@ export default function ExperiencePage() {
               onClick={() => setTab("activities")}
               id="btnOrgs"
               type="button"
-              className={`flex-1 py-2 text-sm ${
-                tab === "activities" ? "bg-white text-black" : "text-white/80 hover:text-white"
+              className={`flex-1 py-2 text-sm cursor-pointer ${
+                tab === "activities" ? "bg-white text-black" : "text-white/80 hover:text-white hover:bg-white/5"
               }`}
             >
               Activities

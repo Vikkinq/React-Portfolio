@@ -1,4 +1,4 @@
-export default function ExperienceButton() {
+export default function ExperienceButton({ tab }) {
   return (
     <button
       onClick={() => setTab("studies")}

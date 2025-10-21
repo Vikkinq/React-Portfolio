@@ -12,6 +12,10 @@
     "stack": "JavaScript"
   },
   {
+    "icon": "fab fa-react text-sky-400",
+    "stack": "ReactJS"
+  },
+  {
     "icon": "fab fa-node-js text-green-600",
     "stack": "NodeJS"
   },
@@ -20,19 +24,48 @@
     "stack": "ExpressJS"
   },
   {
-    "icon": "devicon-mongodb-plain text-green-600",
-    "stack": "MongoDB"
-  },
-  {
     "icon": "fab fa-php text-indigo-500",
     "stack": "PHP"
   },
+  {
+    "icon": "devicon-mongodb-plain text-green-600",
+    "stack": "MongoDB"
+  },
+
   {
     "icon": "fas fa-database text-blue-700",
     "stack": "MySQL"
   },
   {
+    "icon": "devicon-tailwindcss-plain text-sky-400",
+    "stack": "TailwindCSS"
+  },
+  {
+    "icon": "devicon-bootstrap-plain text-purple-500",
+    "stack": "BootstrapCSS"
+  },
+  {
+    "icon": "devicon-materialui-plain text-blue-500",
+    "stack": "Material UI"
+  },
+  {
+    "icon": "fas fa-circle-nodes text-orange-400",
+    "stack": "JWT"
+  },
+  {
+    "icon": "fas fa-key text-yellow-400",
+    "stack": "OAuth"
+  },
+  {
     "icon": "fab fa-git-alt text-red-600",
     "stack": "Git"
+  },
+  {
+    "icon": "fab fa-github-alt text-red-200",
+    "stack": "Github"
+  },
+  {
+    "icon": "fas fa-key text-yellow-400",
+    "stack": "Hoppscotch"
   }
 ]

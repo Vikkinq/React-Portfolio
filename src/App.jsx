@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
+import "./assets/css/styles.css";
+import "./assets/css/lightbox.css";
 
 import Nav from "./components/Global/Nav";
 import HomePage from "./pages/HomePage";
@@ -9,7 +11,7 @@ import ProjectPage from "./pages/ProjectPage";
 
 function App() {
   return (
-    <main className="relative bg-blobs">
+    <div className="relative bg-blobs">
       <Router>
         <Nav />
         <Routes>
@@ -19,7 +21,7 @@ function App() {
         </Routes>
         {/* <Footer /> */}
       </Router>
-    </main>
+    </div>
   );
 }
 

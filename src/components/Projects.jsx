@@ -6,18 +6,22 @@ export default function ProjectSection() {
     <section id="projects" className="pt-10 pb-4" aria-labelledby="projects-heading">
       <div className="flex items-center justify-between mb-4">
         <h2 id="projects-heading" className="text-white/90 text-xl font-semibold">
-          Projects
+          My Projects
         </h2>
-        <a href="projects.html" className="text-sm text-white/70 hover:text-white">
+        <a href="projects.html" className="text-sm text-white hover:text-white cursor-pointer">
           View More
         </a>
       </div>
 
       <div className="grid sm:grid-cols-2 gap-6">
-        {projectData.slice(0, 4).map((p, index) => (
+        {projectData.SOFTWARE.slice(0, 4).map((p, index) => (
           <article key={index} className="rounded-xl border border-white/10 bg-white/5 overflow-hidden">
             <a data-lightbox href={p.image}>
-              <img src={p.image} alt="Screenshot of IrriGaia project" className="w-full h-44 object-cover" />
+              {!p.image ? (
+                "Loading"
+              ) : (
+                <img src={p.image} alt="Screenshot of IrriGaia project" className="w-full h-44 object-cover" />
+              )}
             </a>
             <div className="p-4">
               <h3 className="font-semibold">{p.title}</h3>
@@ -30,6 +34,16 @@ export default function ProjectSection() {
                   </span>
                 ))}
               </div>
+
+              {!p.link ? (
+                ""
+              ) : (
+                <div className="mt-4 flex justify-end" target="_blank">
+                  <a href={p.link} target="_blank" className="text-white/70 hover:text-white text-sm font-medium">
+                    View Site →
+                  </a>
+                </div>
+              )}
             </div>
           </article>
         ))}
