@@ -29,7 +29,7 @@ export default function ExperienceList({ getData }) {
 
           {/* Right: small image */}
           {item.image && (
-            <div className="w-20 h-20 flex-shrink-0 rounded-lg overflow-hidden border border-white/20 bg-white/5">
+            <div className="w-30 h-20 flex-shrink-0 rounded-lg overflow-hidden border border-white/20 bg-white/5">
               <img
                 data-lightbox
                 src={item.image}
