@@ -8,7 +8,7 @@ import ScrollToTop from "./components/Global/ScrollTop";
 
 import Nav from "./components/Global/Nav";
 import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage";
+import ThesisPage from "./pages/ThesisPage";
 import ProjectPage from "./pages/ProjectPage";
 import Lightbox from "./components/Global/Lightbox";
 
@@ -19,7 +19,7 @@ function App() {
         <ScrollToTop />
         <Nav />
         <Routes>
-          <Route path="/about" element={<AboutPage />} />
+          <Route path="/thesis" element={<ThesisPage />} />
           <Route path="/projects" element={<ProjectPage />} />
           <Route path="*" element={<HomePage />} />
         </Routes>

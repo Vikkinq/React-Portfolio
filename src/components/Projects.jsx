@@ -18,11 +18,8 @@ export default function ProjectSection() {
 
       <div className="grid sm:grid-cols-2 gap-6 items-stretch">
         {projectData.SOFTWARE.slice(0, 4).map((p, index) => (
-          <Reveal>
-            <article
-              key={index}
-              className="flex flex-col rounded-xl border border-white/10 bg-white/5 overflow-hidden h-full"
-            >
+          <Reveal key={index}>
+            <article className="flex flex-col rounded-xl border border-white/10 bg-white/5 overflow-hidden h-full">
               <a data-lightbox href={p.image}>
                 {!p.image ? "Loading" : <img src={p.image} alt={p.title} className="w-full h-44 object-cover" />}
               </a>

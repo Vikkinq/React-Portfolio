@@ -12,11 +12,8 @@ export default function TechStack() {
 
       <div className="flex flex-wrap gap-3">
         {stack.map((tech, index) => (
-          <Reveal>
-            <span
-              key={index}
-              className="inline-flex items-center gap-3 px-3 py-2 rounded-lg border border-white/10 bg-white/10 text-sm cursor-pointer hover:bg-white/20"
-            >
+          <Reveal key={index}>
+            <span className="inline-flex items-center gap-3 px-3 py-2 rounded-lg border border-white/10 bg-white/10 text-sm cursor-pointer hover:bg-white/20">
               <i className={tech.icon}></i> {tech.stack}
             </span>
           </Reveal>
