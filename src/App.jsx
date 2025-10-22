@@ -10,6 +10,7 @@ import Nav from "./components/Global/Nav";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ProjectPage from "./pages/ProjectPage";
+import Lightbox from "./components/Global/Lightbox";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         </Routes>
         {/* <Footer /> */}
       </Router>
+      <Lightbox />
     </div>
   );
 }

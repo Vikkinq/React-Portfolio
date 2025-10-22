@@ -3,37 +3,43 @@
     "title": "Web Development Bootcamp 2025",
     "issuer": "Udemy",
     "date": "Issued October 2025",
-    "image": "https://freelogopng.com/images/all_img/1683006968udemy-icon-png.png"
+    "image": "https://freelogopng.com/images/all_img/1683006968udemy-icon-png.png",
+    "certificate": "https://www.udemy.com/certificate/UC-659af255-70be-494b-8f5b-fd6919b85da5/"
   },
   {
     "title": "Published Research (IEEE 2025 Malaysia)",
     "issuer": "IEEE Global",
     "date": "Published April 2025",
-    "image": "https://scontent.fcgy2-3.fna.fbcdn.net/v/t39.30808-6/348260238_942625550410912_8708447476784670247_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEvntPgfwhMd71FT5pSAy38XqRAfbFL8g9epEB9sUvyD1796_aXvOJ3o7y8IRuRDPYnHe9ZkaJQQlFrMGsSOoPI&_nc_ohc=yK2gjedqCX4Q7kNvwGxoNQQ&_nc_oc=Adm9kEZyKUru-Dfy6oKp1bhPwzW16Hmyr61EfNlRA7rWQ4NT7HC04V2vp2Vwuccj-3E&_nc_zt=23&_nc_ht=scontent.fcgy2-3.fna&_nc_gid=rPCJrldfqMtwaffiiAF-Iw&oh=00_AfcIrMdI_0xxj_WRWV9Qt25GSi8XGJWuJiFewnFX8OtiIg&oe=68FA3B79"
+    "image": "https://scontent.fcgy2-3.fna.fbcdn.net/v/t39.30808-6/348260238_942625550410912_8708447476784670247_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEvntPgfwhMd71FT5pSAy38XqRAfbFL8g9epEB9sUvyD1796_aXvOJ3o7y8IRuRDPYnHe9ZkaJQQlFrMGsSOoPI&_nc_ohc=yK2gjedqCX4Q7kNvwGxoNQQ&_nc_oc=Adm9kEZyKUru-Dfy6oKp1bhPwzW16Hmyr61EfNlRA7rWQ4NT7HC04V2vp2Vwuccj-3E&_nc_zt=23&_nc_ht=scontent.fcgy2-3.fna&_nc_gid=rPCJrldfqMtwaffiiAF-Iw&oh=00_AfcIrMdI_0xxj_WRWV9Qt25GSi8XGJWuJiFewnFX8OtiIg&oe=68FA3B79",
+    "certificate": "https://drive.google.com/file/d/1vs7LAV5dTI4T59IVxJoD0b63uft4A6YU/view?usp=drive_link"
   },
   {
     "title": "Fortinet Certified Fundamentals (FCF)",
     "issuer": "Fortinet",
     "date": "Issued September 2024",
-    "image": "https://images.credly.com/images/22a0ece5-ff05-4594-8320-25e55e9ae203/image.png"
+    "image": "https://images.credly.com/images/22a0ece5-ff05-4594-8320-25e55e9ae203/image.png",
+    "certificate": "https://training.fortinet.com/pluginfile.php/1/tool_certificate/issues/1761109384/4423822892FB.pdf"
   },
   {
     "title": "Sophos Certified Technician",
     "issuer": "Sophos",
     "date": "Issued June 2024",
-    "image": "https://whatfix.com/blog/wp-content/uploads/2024/07/sophos-logo-circle-1024x1024.png"
+    "image": "https://whatfix.com/blog/wp-content/uploads/2024/07/sophos-logo-circle-1024x1024.png",
+    "certificate": "https://drive.google.com/file/d/1UtRW2CQgkKeTOjIfLo5TXYaqJcDIRb3o/view?usp=drive_link"
   },
   {
     "title": "Sophos Certified Engineer",
     "issuer": "Sophos",
     "date": "Issued June 2024",
-    "image": "https://www.synetcom.co.id/images/2019/10/24/sophos-certified-engineer_1.jpg"
+    "image": "https://www.synetcom.co.id/images/2019/10/24/sophos-certified-engineer_1.jpg",
+    "certificate": "https://drive.google.com/file/d/1PukWlnCq6wdtcDoTWcsgNFGoJ2cUfTqo/view?usp=drive_link"
   },
 
   {
     "title": "Capture The Flag",
     "issuer": "Trend Micro",
     "date": "Issued August 2024",
-    "image": "/images/uctf.png"
+    "image": "/images/uctf.png",
+    "certificate": "https://drive.google.com/file/d/15O7pmz6QYfwyZAg9VVoE8k1tNrbX13s9/view?usp=drive_link"
   }
 ]

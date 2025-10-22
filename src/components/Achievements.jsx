@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import certs from "../json/achievements_data.json";
 import Reveal from "./Global/Reveal";
 
@@ -22,7 +24,7 @@ export default function AchievementSection() {
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {certs.map((c, i) => (
           <Reveal delay={0.3}>
-            <a key={i} href="">
+            <a key={i} href={c.certificate} target="_blank">
               <article className="group rounded-xl border border-white/10 bg-white/5 backdrop-blur-sm p-4 text-center transition hover:bg-white/[0.08] hover:-translate-y-1 duration-300">
                 <div className="aspect-square w-24 mx-auto mb-4 rounded-lg overflow-hidden flex items-center justify-center">
                   <img src={c.image} alt={`${c.title} Certificate`} className="object-contain w-full h-full" />

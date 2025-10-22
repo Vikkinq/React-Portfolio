@@ -10,6 +10,7 @@ export default function HeroSection() {
           <span className="inline-block w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full overflow-hidden ring-1 ring-white/15 shrink-0">
             <a href="/images/symon.JPG">
               <img
+                data-lightbox
                 src="/images/symon.JPG"
                 alt="Profile photo of Fritz Symon Blancaflor"
                 className="block w-full h-full object-cover object-center"
