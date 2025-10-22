@@ -36,15 +36,16 @@ export default function HeroSection() {
       <Reveal delay={0.45}>
         <div className="mt-6 flex items-center justify-center gap-3">
           <a
-            href="#contact"
-            className="inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-2.5 hover:bg-white/10 transition"
+            href="mailto:fritzsymon23@gmail.com"
+            className="inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-2.5 text-white/90 font-medium backdrop-blur-sm transition-all duration-300 hover:bg-white/10 hover:text-white focus:ring-2 focus:ring-white/20 focus:outline-none"
           >
-            <i className="fa-regular fa-paper-plane"></i>
-            <span className="font-medium">Contact me</span>
+            <i className="fa-regular fa-paper-plane text-white/80"></i>
+            <span>Contact Me</span>
           </a>
+
           <a
             href="https://drive.google.com/uc?export=download&id=1WA4CpFqgH63_rICYjjmSYExu03nbS7ZZ"
-            className="inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-2.5 hover:bg-white/10 transition"
+            className="inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-2.5 hover:bg-white/10 transition-all duration-300"
             target="_blank"
             rel="noopener"
             download
