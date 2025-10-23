@@ -58,6 +58,13 @@
 
   "HARDWARE": [
     {
+      "title": "IrriGaia - Prototype",
+      "desc": "An IoT Prototype for Automation Irrigation System (Mist and Drip) using ESP32",
+      "image": "/images/IrriGaia.jpg",
+      "tags": ["C", "ESP32", "IoT", "HTTPS", "AWS Lightsail", "Irrigation"],
+      "type": "hardware"
+    },
+    {
       "title": "Smart Doorbell",
       "desc": "Smart IoT Doorbell with ESP8266, touch sensor, chimes, LED, and MQTT.",
       "image": "/images/doorbell.jpg",
