@@ -8,6 +8,13 @@
       "type": "web"
     },
     {
+      "title": "UBRA - Job Tracker App",
+      "desc": "A full-stack Job Tracker App where you can Track your Job Applications",
+      "image": "/images/UBRA.png",
+      "tags": ["JavaScript", "ExpressJS", "NodeJS", "MongoDB", "ReactJS", "OAuth", "JWT"],
+      "type": "web"
+    },
+    {
       "title": "TravelSpots Web App",
       "desc": "A full-stack web application where users can discover, create, and review travel destinations.",
       "image": "/images/travelspots.png",
@@ -68,7 +75,7 @@
       "title": "Smart Doorbell",
       "desc": "Smart IoT Doorbell with ESP8266, touch sensor, chimes, LED, and MQTT.",
       "image": "/images/doorbell.jpg",
-      "tags": ["C", "ESP8266", "IoT", "MQTT", "TTP223", "DFPlayer", "Smart Home"],
+      "tags": ["C", "ESP8266", "IoT", "MQTT", "TTP223", "DFPlayer", "Sma  rt Home"],
       "type": "hardware"
     }
   ]
