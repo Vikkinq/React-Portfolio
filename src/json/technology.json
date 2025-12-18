@@ -16,6 +16,10 @@
     "stack": "ReactJS"
   },
   {
+    "icon": "fab fa-typescript text-sky-400",
+    "stack": "TypeScript"
+  },
+  {
     "icon": "fab fa-node-js text-green-600",
     "stack": "NodeJS"
   },
@@ -67,5 +71,13 @@
   {
     "icon": "fas fa-key text-yellow-400",
     "stack": "Hoppscotch"
+  },
+  {
+    "icon": "fas fa-fire text-yellow-400",
+    "stack": "Firebase"
+  },
+  {
+    "icon": "fas fa-cloud text-yellow-400",
+    "stack": "AWS"
   }
 ]

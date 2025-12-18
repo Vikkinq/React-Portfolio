@@ -44,7 +44,7 @@ export default function HeroSection() {
           </a>
 
           <a
-            href="https://drive.google.com/uc?export=download&id=1WA4CpFqgH63_rICYjjmSYExu03nbS7ZZ"
+            href="https://drive.google.com/uc?export=download&id=16UxvmNRb91cXe5BGv1JYVPf2-OdC4afW"
             className="inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-2.5 hover:bg-white/10 transition-all duration-300"
             target="_blank"
             rel="noopener"
