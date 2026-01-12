@@ -15,6 +15,14 @@
       "type": "web"
     },
     {
+      "title": "INHS - School Record Management System",
+      "desc": "A full-stack Record Management System that securely stores, organizes, and manages digital records with role-based access and a modern user-friendly interface.",
+      "image": "/images/inhs-project.png",
+      "tags": ["TypeScript", "ReactJS", "Firebase", "Firestore", "Firebase Storage"],
+      "type": "web",
+      "link": "https://record-management---ihs.web.app/"
+    },
+    {
       "title": "TravelSpots Web App",
       "desc": "A full-stack web application where users can discover, create, and review travel destinations.",
       "image": "/images/travelspots.png",
