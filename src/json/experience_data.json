@@ -22,17 +22,23 @@
 
   "WORK": [
     {
-      "date": "June 2024 - August 2024",
-      "title": "Experts Academy",
-      "subtitle": "Network Technical Support - Internship",
-      "logo": "/images/svg/experts-academy.svg",
-      "image": "/images/COT_Fritz.png"
+      "date": "February 2026 - Present",
+      "title": "MECS Software Solutions INC.",
+      "subtitle": "Junior Software Developer",
+      "logo": "/images/MECS_LOGO.png"
     },
     {
       "date": "July 2025 - Present",
       "title": "Freelancing",
       "subtitle": "Software Developer",
       "logo": "https://static.vecteezy.com/system/resources/previews/022/276/702/original/freelancing-icon-style-vector.jpg"
+    },
+    {
+      "date": "June 2024 - August 2024",
+      "title": "Experts Academy",
+      "subtitle": "Network Technical Support - Internship",
+      "logo": "/images/svg/experts-academy.svg",
+      "image": "/images/COT_Fritz.png"
     }
   ],
 

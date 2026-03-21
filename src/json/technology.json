@@ -16,7 +16,11 @@
     "stack": "ReactJS"
   },
   {
-    "icon": "fab fa-typescript text-sky-400",
+    "icon": "devicon-vuejs-plain colored",
+    "stack": "Vue"
+  },
+  {
+    "icon": "devicon-typescript-plain colored",
     "stack": "TypeScript"
   },
   {
@@ -27,17 +31,27 @@
     "icon": "devicon-express-original text-gray-200",
     "stack": "ExpressJS"
   },
+  { "icon": "img", "iconUrl": "https://avatars.githubusercontent.com/u/47703742?s=200&v=4", "stack": "InertiaJS" },
   {
     "icon": "fab fa-php text-indigo-500",
     "stack": "PHP"
   },
   {
+    "icon": "img",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg",
+    "stack": "Laravel"
+  },
+  {
     "icon": "devicon-mongodb-plain text-green-600",
     "stack": "MongoDB"
   },
-
   {
-    "icon": "fas fa-database text-blue-700",
+    "icon": "devicon-postgresql-plain colored",
+    "stack": "PostgreSQL"
+  },
+  {
+    "icon": "img",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
     "stack": "MySQL"
   },
   {
@@ -64,20 +78,12 @@
     "icon": "fab fa-git-alt text-red-600",
     "stack": "Git"
   },
+  { "icon": "img", "iconUrl": "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff", "stack": "GitHub" },
+  { "icon": "img", "iconUrl": "https://avatars.githubusercontent.com/u/56705483?s=200&v=4", "stack": "Hoppscotch" },
   {
-    "icon": "fab fa-github-alt text-red-200",
-    "stack": "Github"
-  },
-  {
-    "icon": "fas fa-key text-yellow-400",
-    "stack": "Hoppscotch"
-  },
-  {
-    "icon": "fas fa-fire text-yellow-400",
+    "icon": "img",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg",
     "stack": "Firebase"
   },
-  {
-    "icon": "fas fa-cloud text-yellow-400",
-    "stack": "AWS"
-  }
+  { "icon": "fab fa-aws text-orange-400", "stack": "AWS" }
 ]
